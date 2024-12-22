@@ -75,6 +75,9 @@ Cette interface permet de gérer la salle de classe intelligente en affichant le
 
 ## Auteurs
 **Cherni Rihab** 
+
 **Benhamed Ranime** 
+
 **Sidi Mohamed Ahmed** 
+
 (Étudiants en génie informatique à l'ENSIT (NTS)).
