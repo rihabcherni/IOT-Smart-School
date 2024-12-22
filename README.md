@@ -1,7 +1,7 @@
 # Smart School System
 
 ## Description
-Le projet **Smart School System** est une solution IoT innovante visant à moderniser les infrastructures scolaires. Grâce à une architecture intelligente basée sur des capteurs, des modules Wi-Fi et Firebase, il améliore la gestion des salles de classe, le suivi des élèves et la communication avec une application mobile dédiée.
+Le projet **Smart School System** est une solution IoT innovante visant à moderniser les infrastructures scolaires. Il optimise la gestion des salles de classe, le suivi des élèves, et facilite la communication via une application mobile dédiée. De plus, il améliore la gestion des parkings en permettant la surveillance en temps réel de la disponibilité des places. Le système intègre des capteurs, un module Wi-Fi et Firebase pour offrir une expérience utilisateur fluide et intuitive.
 
 ## Fonctionnalités
 ### Smart Class
@@ -10,6 +10,11 @@ Le projet **Smart School System** est une solution IoT innovante visant à moder
 - Système RFID pour enregistrer la présence des élèves.
 - Notifications visuelles et sonores pour signaler des alertes ou des états.
 - Communication entre le matériel IoT et l’application via le module Wi-Fi.
+
+### Smart Parking System
+- Détection en temps réel du nombre de places de stationnement disponibles.
+- Transmission des données collectées vers Firebase pour stockage et traitement.
+- Accès à une application mobile permettant de visualiser l'état du parking.
 
 ## Architecture
 L’architecture du système inclut les éléments suivants :
@@ -44,7 +49,13 @@ L’architecture du système inclut les éléments suivants :
 
 
 ## Aperçu
-![Smart School System Architecture](images/system_architecture.png)
+![Smart School System Architecture](img/Architecture.PNG)
+![Schéma électronique Smart Class](Schéma électronique Smart Class.PNG)
+![Schéma électronique Smart Parking](Schéma électronique Smart Parking.PNG)
+
+![Interfaces de chargement et d'authentification](img/i1.PNG)
+![Interfaces d'accueil et de gestion de parking](img/i2.PNG)
+![Interfaces gestion de classe intelligente](img/i3.PNG)
 
 ## Auteurs
 **Cherni Rihab -Benhamed Ranime - Sidi Mohamed Ahmed** - Étudiants en génie informatique à l'ENSIT (NTS).
