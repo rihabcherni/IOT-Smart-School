@@ -1,85 +1,50 @@
-# Smart Parking System
+# Smart School System
 
 ## Description
-Le projet **Smart Parking System** est une solution IoT conçue pour optimiser la gestion des parkings. Grâce à une combinaison de capteurs, d'un module Wi-Fi et de Firebase, le système permet de surveiller la disponibilité des places de stationnement en temps réel et offre une interface utilisateur conviviale via une application mobile.
+Le projet **Smart School System** est une solution IoT innovante visant à moderniser les infrastructures scolaires. Grâce à une architecture intelligente basée sur des capteurs, des modules Wi-Fi et Firebase, il améliore la gestion des salles de classe, le suivi des élèves et la communication avec une application mobile dédiée.
 
 ## Fonctionnalités
-- Détection en temps réel des places de stationnement disponibles.
-- Transmission des données collectées vers Firebase pour stockage et traitement.
-- Accès à une application mobile permettant de :
-  - Visualiser l'état du parking.
-  - Gérer les réservations à distance.
-- Notifications en cas de changement d'état des places.
+### Smart Class
+- Surveillance en temps réel des conditions de la classe (température, humidité, etc.).
+- Contrôle automatique de l’éclairage, de la climatisation et du chauffage.
+- Système RFID pour enregistrer la présence des élèves.
+- Notifications visuelles et sonores pour signaler des alertes ou des états.
+- Communication entre le matériel IoT et l’application via le module Wi-Fi.
 
 ## Architecture
-Le système repose sur une architecture intégrant les éléments suivants :
-1. **Capteurs** : Détection de la disponibilité des places de stationnement.
-2. **Module Wi-Fi** : Communication avec Firebase.
-3. **Firebase** : Stockage des données et synchronisation en temps réel.
-4. **Application Mobile** : Interface utilisateur pour la gestion du parking.
+L’architecture du système inclut les éléments suivants :
+1. **Capteurs IoT** : Surveillance des paramètres environnementaux.
+2. **Module Wi-Fi** : Transmission des données vers Firebase.
+3. **Firebase** : Stockage cloud en temps réel.
+4. **Application Mobile** : Interface utilisateur pour surveiller et gérer le système.
 
 ## Matériel Utilisé
-- Arduino UNO
-- Capteurs de distance (ou autres capteurs adaptés)
-- Module Wi-Fi (ex. ESP8266 ou ESP32)
-- LEDs pour simulation visuelle
-- Buzzer pour alertes audibles
+### Composants Principaux
+- **Arduino UNO** : Microcontrôleur principal pour le traitement des données.
+- **Module Wi-Fi (ESP8266/ESP32)** : Connectivité réseau.
+- **Capteurs (DHT11, RFID, etc.)** : Collecte de données.
+- **Afficheur LCD** : Affichage des informations en temps réel.
+- **LEDs et Buzzer** : Signalisations visuelles et sonores.
 
-## Dépendances Logicielles
-- [Arduino IDE](https://www.arduino.cc/en/software) pour la programmation de la carte.
-- [Firebase](https://firebase.google.com/) pour la gestion des données cloud.
-- Application mobile (développée avec Flutter ou autre framework compatible).
+### Technologies Logicielles
+- Arduino IDE pour la programmation des microcontrôleurs.
+- Firebase pour la gestion des données cloud.
+- Flutter pour le développement de l’application mobile.
 
 ## Installation
-1. Clonez le dépôt :
-   ```bash
-   git clone https://github.com/votre-utilisateur/smart-parking-system.git
-   cd smart-parking-system
-   ```
-2. Configurez Firebase :
-   - Créez un projet sur Firebase et récupérez les clés d'authentification.
-   - Configurez l'URL de Firebase dans le code Arduino et l'application mobile.
-3. Téléversez le code sur la carte Arduino via l'IDE Arduino.
-4. Configurez l'application mobile en connectant Firebase.
+1. Clonez le dépôt 
+2. Configurez Firebase 
+3. Téléversez le code sur la carte Arduino via l’IDE Arduino.
+4. Configurez l’application mobile pour se connecter à Firebase.
 
 ## Utilisation
-1. Allumez le système et connectez-le au Wi-Fi.
-2. Sur l'application mobile, connectez-vous à Firebase pour visualiser les données en temps réel.
-3. Consultez la disponibilité des places et effectuez vos réservations.
+1. Allumez le système et connectez-le au réseau Wi-Fi.
+2. Visualisez les données des classes en temps réel via l’application mobile.
+3. Contrôlez les systèmes de chaque salle (éclairage, climatisation, etc.) directement depuis l’application.
 
-## Structure du Projet
-```
-smart-parking-system/
-├── arduino_code/          # Code pour la carte Arduino
-├── mobile_app/            # Code source de l'application mobile
-├── images/                # Images des composants et captures d'écran
-├── README.md              # Documentation du projet
-└── LICENSE                # Licence open-source
-```
 
 ## Aperçu
-![Smart Parking Architecture](images/architecture_diagram.png)
+![Smart School System Architecture](images/system_architecture.png)
 
-## Contribution
-Les contributions sont les bienvenues !  
-1. Forkez ce dépôt.
-2. Créez une branche pour vos modifications :
-   ```bash
-   git checkout -b feature/ma-fonctionnalite
-   ```
-3. Faites un commit de vos modifications :
-   ```bash
-   git commit -m "Ajout de ma fonctionnalité"
-   ```
-4. Poussez la branche et ouvrez une pull request.
-
-## Licence
-Ce projet est sous licence [MIT](LICENSE).
-
-## Auteur
-**Votre Nom** - Étudiant en génie informatique à l'ENSIT.
-
-Pour toute question ou suggestion, veuillez ouvrir une [issue](https://github.com/votre-utilisateur/smart-parking-system/issues).
-
-
-
+## Auteurs
+**Cherni Rihab -Benhamed Ranime - Sidi Mohamed Ahmed** - Étudiants en génie informatique à l'ENSIT (NTS).
