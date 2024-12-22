@@ -71,7 +71,7 @@ L'interface d'accueil et de gestion de parking présente les informations en tem
 ### Interfaces gestion de classe intelligente
 ![Interfaces gestion de classe intelligente](img/i3.PNG)
 
-Cette interface permet de gérer la salle de classe intelligente, en affichant les informations relatives à l'occupation des salles, le suivi des élèves et la gestion des ressources (température, humidité, etc.).
+Cette interface permet de gérer la salle de classe intelligente, en affichant les informations relatives à l'occupation des salles, le suivi des élèves et la gestion des ressources (température, humidité, etc.) et les alertes.
 
 ## Auteurs
 **Cherni Rihab** 
