@@ -47,15 +47,37 @@ L’architecture du système inclut les éléments suivants :
 2. Visualisez les données des classes en temps réel via l’application mobile.
 3. Contrôlez les systèmes de chaque salle (éclairage, climatisation, etc.) directement depuis l’application.
 
-
 ## Aperçu
+### Smart School System Architecture
 ![Smart School System Architecture](img/Architecture.PNG)
-![Schéma électronique Smart Class](Schéma électronique Smart Class.PNG)
-![Schéma électronique Smart Parking](Schéma électronique Smart Parking.PNG)
+Cette image présente l'architecture globale du Smart School System, illustrant l'intégration des capteurs IoT, des modules Wi-Fi et de Firebase pour une gestion intelligente des ressources scolaires et de stationnement.
 
+### Schéma réel du circuit électronique réalisé pour le système pour le Smart School System
+![Schéma réel du circuit électronique réalisé pour le système](img/reel.PNG)
+Voici le schéma réel du circuit électronique développé pour le Smart School System, représentant la configuration matérielle et les composants utilisés pour assurer le bon fonctionnement du système.
+
+### Schéma électronique Smart Class
+![Schéma électronique Smart Class](Schéma_électronique_Smart_Class.PNG)
+Ce schéma montre les éléments électroniques impliqués dans la gestion des salles de classe intelligentes, y compris les capteurs et dispositifs pour suivre l'occupation des salles et la présence des élèves.
+
+### Schéma électronique Smart Parking
+![Schéma électronique Smart Parking](Schéma_électronique_Smart_Parking.PNG)
+Illustration du schéma électronique utilisé pour la gestion du parking intelligent, avec des capteurs permettant de suivre la disponibilité des places de stationnement en temps réel.
+
+### Interfaces de chargement et d'authentification
 ![Interfaces de chargement et d'authentification](img/i1.PNG)
+Cette image montre l'interface de chargement et d'authentification de l'application mobile, permettant aux utilisateurs de se connecter de manière sécurisée au système.
+
+### Interfaces d'accueil et de gestion de parking
 ![Interfaces d'accueil et de gestion de parking](img/i2.PNG)
+L'interface d'accueil et de gestion de parking présente les informations en temps réel sur la disponibilité des places de stationnement, offrant une vue claire et accessible de l'état du parking.
+
+### Interfaces gestion de classe intelligente
 ![Interfaces gestion de classe intelligente](img/i3.PNG)
+Cette interface permet de gérer les salles de classe intelligentes, en affichant les informations relatives à l'occupation des salles, le suivi des élèves et la gestion des ressources pédagogiques.
 
 ## Auteurs
-**Cherni Rihab -Benhamed Ranime - Sidi Mohamed Ahmed** - Étudiants en génie informatique à l'ENSIT (NTS).
+**Cherni Rihab** 
+**Benhamed Ranime** 
+**Sidi Mohamed Ahmed** 
+(Étudiants en génie informatique à l'ENSIT (NTS)).
