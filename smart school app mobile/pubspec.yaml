@@ -18,6 +18,11 @@ dependencies:
   sleek_circular_slider: ^2.0.1
   permission_handler: ^11.3.1
   flutter_spinkit: ^5.2.1
+  firebase_core: ^3.9.0
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.6.0
+  wifi_iot: ^0.3.19+1
+  firebase_database: ^11.2.0
 
 dev_dependencies:
   flutter_test:

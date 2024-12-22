@@ -45,7 +45,6 @@ class ParkingManagementScreen extends StatelessWidget {
                 ),
               ),
             ),
-
             // Card for available parking spaces
             Card(
               elevation: 5,
@@ -69,7 +68,7 @@ class ParkingManagementScreen extends StatelessWidget {
 
             Image(
               image: AssetImage('assets/car.png'),
-              width: 200,
+              width: 150,
             ),
           ],
         ),

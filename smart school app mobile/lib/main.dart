@@ -12,10 +12,8 @@ void main() {
     const SmartSchoolApp(),
   );
 }
-
 class SmartSchoolApp extends StatelessWidget {
   const SmartSchoolApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -25,15 +23,11 @@ class SmartSchoolApp extends StatelessWidget {
       initialRoute: '/', // Route initiale : Landing Page
       routes: {
         '/': (_) => const LandingPage(),
-
         // -------------------------------------------------------------//
-
         '/login': (_) => LoginScreen(),
         '/register': (_) => const RegisterScreen(),
-
         // -------------------------------------------------------------//
         '/adminDashboard': (_) => const AdminDashboard(),
-
         // -------------------------------------------------------------//
         '/home': (_) => const HomeScreen(),
         '/parkingManagement': (_) => const ParkingManagementScreen(),
